@@ -1,0 +1,246 @@
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+margin: 0;
+padding: 0;
+}
+img, fieldset {
+border: 0;
+}
+/* set image max width to 100% */
+img {
+max-width: 100%;
+height: auto;
+width: auto\9; /* ie8 */
+}
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+/*ESTILOS GENERALES*/
+
+body{
+    font: .81em/150% Arial,Helvetica,sans-serif;
+    color: #fff;
+    text-align: justify;
+    background: rgba(74,147,158,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(74,147,158,1) 0%, rgba(19,73,82,1) 88%, rgba(19,73,82,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(74,147,158,1)), color-stop(88%, rgba(19,73,82,1)), color-stop(100%, rgba(19,73,82,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(74,147,158,1) 0%, rgba(19,73,82,1) 88%, rgba(19,73,82,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(74,147,158,1) 0%, rgba(19,73,82,1) 88%, rgba(19,73,82,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(74,147,158,1) 0%, rgba(19,73,82,1) 88%, rgba(19,73,82,1) 100%);
+background: radial-gradient(ellipse at center, rgba(74,147,158,1) 0%, rgba(19,73,82,1) 88%, rgba(19,73,82,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a939e', endColorstr='#134952', GradientType=1 );
+}
+
+a{
+    color: rgb(246, 243, 243);
+    text-decoration: none;
+    outline: none;
+    
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+p{
+    margin: 0 0 1.2em;
+    padding: 0;
+}
+
+ul,ol{
+    margin: 1em 0 1.4em 24px;
+    padding: 0;
+    line-height: 140%;
+}
+
+li{
+    margin: 0 0 .5em 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    line-height: 1.4em;
+    margin: 20px 0.4em;
+    color: #000;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.6em;
+}
+
+h3{
+    font-size: 1.4em;
+}
+
+h4{
+    font-size: 1.2em;
+}
+
+h5{
+    font-size: 1.1em;
+}
+
+h6{
+    font-size: 1rem;
+}
+
+/*ESTRUCTURA*/
+
+#pagewrap{
+    margin: 0 auto;
+}
+
+#content{
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* HEADER*/
+#header{
+    background: #333;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right:3m ;
+    padding-left: 3m;
+}
+
+#site-logo{
+    font-weight: 400;
+    color: #fff;
+    font-family: top;
+    font-size: 5em;
+}
+
+@font-face {
+    font-family: 'top';
+    src: url('../fuentes/fonts/Top\ Secret.ttf');
+}
+
+#site-logo a{
+    text-decoration: none;
+    text-shadow: 10px 10px 5px rgb(1, 0, 0);
+    
+
+}
+
+/*MENU*/
+
+#menu{
+    -webkit-box-shadow: 0px 10px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 14px 0px rgba(0,0,0,0.75);
+    background: rgba(85,85,85,1);
+    background: -moz-linear-gradient(top, rgba(85,85,85,1) 0%, rgba(51,51,51,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(85,85,85,1)), color-stop(100%, rgba(51,51,51,1)));
+    background: -we bkit-linear-gradient(top, rgba(85,85,85,1) 0%, rgba(51,51,51,1) 100%);
+    background: -o-linear-gradient(top, rgba(85,85,85,1) 0%, rgba(51,51,51,1) 100%);
+    background: -ms-linear-gradient(top, rgba(85,85,85,1) 0%, rgba(51,51,51,1) 100%);
+    background: linear-gradient(to bottom, rgba(85,85,85,1) 0%, rgba(51,51,51,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#333333', GradientType=0 );
+    width: 100%;
+    border: 1px #222 solid;
+}
+
+#main-nav{
+    margin: 0;
+    padding: 0 3em;
+}
+
+#menu li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    font: bold 14px verdana, sans-serif;
+}
+
+#menu a{
+    line-height: 100%;
+    font-weight: bold;
+    display: block;
+    padding: 14px 15px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    text-shadow: 5px 5px 3px rgb(8, 8, 8);
+    
+    
+}
+
+#menu a:hover{
+    background: #777777;
+    border: 1px #000000 solid;
+    transition: background-color 0.5s;
+
+    
+}
+
+/*CONTENIDO*/
+
+#seccion{
+    float: left;
+    width: 70%;
+    margin-right: 5%;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background: #777777;
+}
+
+#article{
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article footer{
+    text-align: right;
+}
+
+/*BARRA LATERAL*/
+
+#sidebar{
+    float: left;
+    width: 25%;
+    font-family: 'Damion', cursive;
+  
+}
+
+#animacion {
+        transition: all 2s ease-in-out;
+}
+
+#animacion:hover{
+        transform: rotate(380deg);
+        
+
+}
+
+#sidebar div {
+    padding: 10em 0;
+    margin: 5%;
+    background: rgb(255, 255, 255);
+    
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+
+}
+
+
+
+
+
+   
+
+
